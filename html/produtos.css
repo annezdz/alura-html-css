@@ -91,3 +91,79 @@ footer{
     font-size: 13px;
     margin:20px 0 0 
 }
+
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+
+}
+
+.tipo-input {
+    display: block;
+    margin: 0 0 20px 0;
+    padding: 10px 25px ;
+    width: 50%;
+}
+
+.tipo-checkbox, .tipo-radio {
+    margin: 20px 5px 5px;
+}
+
+.select-horario {
+    margin:20px 5px 5px 0 ;
+}
+
+
+
+.entrada-dados {
+    padding: 0 0 15px 0;
+}
+
+field legend {
+    margin-top: 5px;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0 ; 
+    background: #C78C19;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: #a06e0a;
+    transform: scale(1.1);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td , th{
+    border:1px solid #000000;
+    padding: 8px 15px;
+}
+
